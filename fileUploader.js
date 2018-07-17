@@ -1,3 +1,6 @@
+/*
+* created by zhongzikuli<hgb102xlg@126.com> on 17/10/9.
+* */
 (function ($) {
     var defaultOptions = {
         containerId: 'uploadContainer',

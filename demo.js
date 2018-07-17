@@ -1,3 +1,6 @@
+/*
+* created by zhongzikuli<hgb102xlg@126.com> on 17/10/9.
+* */
 $(document).ready(function () {
     var fileUpload = new uploaderFile({
         auto: true,
@@ -8,6 +11,6 @@ $(document).ready(function () {
         fileSingleSizeLimit: 1048576 * 10,
         dropTip: '',
         buttonText: '选择文件',
-        server:'/fdfs/uploadFile.action'
+        server: '/fdfs/uploadFile.action'
     });
 });
